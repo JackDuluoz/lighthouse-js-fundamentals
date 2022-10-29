@@ -1,3 +1,4 @@
+/*
 let temperature = 12;
 
 if (temperature < 0) {
@@ -9,3 +10,14 @@ if (temperature < 0) {
 }
 
 console.log("Now you're ready to go outside!");
+*/
+
+let whichSchool = function age(years) {
+  if (years < 13) {
+    return "Elementary School"
+  } else if (years < 19) {
+    return "Secondary School"
+  } else {
+    return "Lighthouse Labs"
+  }
+}
