@@ -1,11 +1,11 @@
-let number = 0
-while (number <= 100) {
-  if ((number % 3 === 0) && (number % 5 === 0)) {
-    console.log("FizzBuzz")
+let number = 100
+while (number <= 200) {
+  if ((number % 3 === 0) && (number % 4 === 0)) {
+    console.log("LoopyLighthouse")
   } else if (number % 3 === 0) {
-    console.log("Fizz")
-  } else if (number % 5 === 0) {
-    console.log("Buzz")
+    console.log("Loopy")
+  } else if (number % 4 === 0) {
+    console.log("Lighthouse")
   } else {
     console.log(number)
   }
